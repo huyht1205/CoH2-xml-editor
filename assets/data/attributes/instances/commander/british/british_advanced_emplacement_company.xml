@@ -1,0 +1,33 @@
+<instance description="" template="commander">
+	<group name="commander_bag">
+		<locstring name="name" value="11106507" />
+		<instance_reference name="archetype_upgrade" value="" />
+		<locstring name="description" value="11106510" />
+		<icon name="icon" value="Icons_commander_portrait_british_commander_07" />
+		<icon name="icon_secondary" value="Icons_commander_portrait_british_commander_07_large" />
+		<int name="ui_position" value="0" />
+		<locstring name="description_short" value="0" />
+		<instance_reference name="store_item" value="thq_store\commanders\british\british_advanced_emplacement_company" />
+		<template_reference name="server_item" value="server_item">
+			<uniqueid name="server_id" value="450553" />
+			<list name="search_tags">
+			</list>
+			<enum name="rarity" value="rare" />
+			<list name="races">
+				<instance_reference name="race" value="racebps\british" />
+			</list>
+			<bool name="is_in_default_bundle" value="False" />
+			<list name="default_metadata">
+			</list>
+			<instance_reference name="inventory_item_category" value="" />
+		</template_reference>
+		<list name="commander_abilities">
+			<instance_reference name="commander_ability" value="commander_ability\british\commander\passive\defensive_operations" />
+			<instance_reference name="commander_ability" value="commander_ability\british\commander\passive\counter_battery" />
+			<instance_reference name="commander_ability" value="commander_ability\british\commander\passive\improved_fortification" />
+			<instance_reference name="commander_ability" value="commander_ability\british\commander\passive\advanced_assembly" />
+			<instance_reference name="commander_ability" value="commander_ability\british\commander\ability\precision_barrage" />
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="100714" />
+</instance>

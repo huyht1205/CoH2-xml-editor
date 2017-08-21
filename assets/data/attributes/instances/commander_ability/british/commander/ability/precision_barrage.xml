@@ -1,0 +1,22 @@
+<instance description="" template="commander_ability">
+	<group name="commander_ability_bag">
+		<locstring name="name" value="11106589" />
+		<locstring name="description" value="11106595" />
+		<icon name="icon" value="Icons_commander_cmdr_british_precision_barrage" />
+		<template_reference name="server_item" value="server_item">
+			<uniqueid name="server_id" value="450561" />
+			<list name="search_tags">
+			</list>
+			<enum name="rarity" value="other" />
+			<list name="races">
+			</list>
+			<bool name="is_in_default_bundle" value="False" />
+			<list name="default_metadata">
+			</list>
+			<instance_reference name="inventory_item_category" value="" />
+		</template_reference>
+		<instance_reference name="upgrade" value="upgrade\british\commander\precision_barrage" />
+		<instance_reference name="ability" value="abilities\british\modal_ability\commander_ability\percision_barrage" />
+	</group>
+	<uniqueid name="pbgid" value="100731" />
+</instance>

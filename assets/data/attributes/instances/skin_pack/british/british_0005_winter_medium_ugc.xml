@@ -1,0 +1,30 @@
+<instance description="British Camo" template="skin_pack">
+	<group name="skin_pack_bag">
+		<string name="skin_name" value="british_0005_winter_ugc" />
+		<icon name="icon" value="Icons_swatches_swatch_british_0005_winter_medium_ugc" />
+		<icon name="icon_secondary" value="Icons_swatches_preview_preview_british_0005_winter_medium_ugc" />
+		<locstring name="name" value="11106941" />
+		<locstring name="description" value="11106942" />
+		<enum name="kill_type" value="medium_armour" />
+		<enum name="season" value="winter" />
+		<locstring name="description_short" value="11106943" />
+		<instance_reference name="store_item" value="thq_store\skins\warpaint\warpaint_fantasy_bundle" />
+		<template_reference name="server_item" value="server_item">
+			<uniqueid name="server_id" value="450577" />
+			<list name="search_tags">
+				<locstring name="tag" value="11106949" />
+				<locstring name="tag" value="11106952" />
+			</list>
+			<enum name="rarity" value="rare" />
+			<list name="races">
+				<instance_reference name="race" value="racebps\british" />
+			</list>
+			<bool name="is_in_default_bundle" value="False" />
+			<list name="default_metadata">
+			</list>
+			<instance_reference name="inventory_item_category" value="inventory_item_category\skin_pack\winter_medium" />
+		</template_reference>
+		<bool name="is_historical_skin" value="False" />
+	</group>
+	<uniqueid name="pbgid" value="101214" />
+</instance>

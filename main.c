@@ -16,7 +16,7 @@
 #include <libxml/xmlmemory.h>
 #include <libxml/xpath.h>
 
-#define TARGET	"/data/workspace/xcode/WestGerman/instances/ebps/races/west_german/soldiers/assault_pioneer/assault_pioneer_mp.xml"
+#define TARGET	"assault_pioneer_mp.xml"
 
 const char *increasex10List[100] = {
 	"hitpoints", "armor", "rear_armor", "regeneration",
@@ -136,7 +136,7 @@ int main(int argc, char **argv) {
 
 		print_element_names(root);
 
-		xmlSaveFile(TARGET, doc);
+		xmlSaveFile(fileName, doc);
 	} else {}
 
 	/*

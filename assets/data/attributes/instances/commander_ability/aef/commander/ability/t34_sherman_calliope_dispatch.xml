@@ -1,0 +1,27 @@
+<instance description="" template="commander_ability">
+	<group name="commander_ability_bag">
+		<locstring name="name" value="11085973" />
+		<locstring name="description" value="11085976" />
+		<icon name="icon" value="Icons_vehicles_vehicle_aef_calliope" />
+		<template_reference name="server_item" value="server_item">
+			<list name="search_tags">
+				<locstring name="tag" value="11097596" />
+				<locstring name="tag" value="11097595" />
+				<locstring name="tag" value="11097593" />
+				<locstring name="tag" value="11097594" />
+			</list>
+			<enum name="rarity" value="rare" />
+			<list name="races">
+				<instance_reference name="race" value="racebps\aef" />
+			</list>
+			<bool name="is_in_default_bundle" value="False" />
+			<list name="default_metadata">
+			</list>
+			<uniqueid name="server_id" value="450489" />
+			<instance_reference name="inventory_item_category" value="inventory_item_category\commander_ability\units_and_buildings" />
+		</template_reference>
+		<instance_reference name="upgrade" value="upgrade\aef\commander\ability\t34_sherman_calliope_dispatch" />
+		<instance_reference name="ability" value="abilities\aef\modal_ability\dispatch_ability\sherman_calliope_dispatch" />
+	</group>
+	<uniqueid name="pbgid" value="96822" />
+</instance>

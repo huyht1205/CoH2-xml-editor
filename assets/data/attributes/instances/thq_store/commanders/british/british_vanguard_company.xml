@@ -1,0 +1,13 @@
+<instance description="Vanguard Regiment" template="thq_store">
+	<group name="unlock_item">
+		<enum name="item_category" value="commanders" />
+		<instance_reference name="unlock_upgrade" value="" />
+		<bool name="community" value="False" />
+		<bool name="purchaseable" value="True" />
+		<list name="dlc_tokens">
+			<string name="dlc_token" value="231573" />
+			<string name="dlc_token" value="260291" />
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="95143" />
+</instance>

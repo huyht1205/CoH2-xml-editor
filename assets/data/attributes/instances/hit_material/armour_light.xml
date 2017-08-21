@@ -1,0 +1,6 @@
+<instance description="light vehicle armour hits - small cars and half tracks" template="hit_material">
+	<group name="hit_material_bag">
+		<string name="fx_material_name" value="armour_light" />
+	</group>
+	<uniqueid name="pbgid" value="93348" />
+</instance>

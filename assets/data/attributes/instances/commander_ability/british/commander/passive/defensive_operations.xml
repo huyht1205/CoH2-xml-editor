@@ -1,0 +1,22 @@
+<instance description="" template="commander_ability">
+	<group name="commander_ability_bag">
+		<locstring name="name" value="11106513" />
+		<locstring name="description" value="11106514" />
+		<icon name="icon" value="Icons_commander_cmdr_british_defensive_operations" />
+		<template_reference name="server_item" value="server_item">
+			<uniqueid name="server_id" value="450557" />
+			<list name="search_tags">
+			</list>
+			<enum name="rarity" value="other" />
+			<list name="races">
+			</list>
+			<bool name="is_in_default_bundle" value="False" />
+			<list name="default_metadata">
+			</list>
+			<instance_reference name="inventory_item_category" value="" />
+		</template_reference>
+		<instance_reference name="upgrade" value="upgrade\british\commander\passive\defensive_operations" />
+		<instance_reference name="ability" value="abilities\british\passive_ability\defensive_operations" />
+	</group>
+	<uniqueid name="pbgid" value="100727" />
+</instance>

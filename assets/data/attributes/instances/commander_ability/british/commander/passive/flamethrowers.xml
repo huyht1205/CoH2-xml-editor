@@ -1,0 +1,22 @@
+<instance description="" template="commander_ability">
+	<group name="commander_ability_bag">
+		<locstring name="name" value="11106509" />
+		<locstring name="description" value="11106630" />
+		<icon name="icon" value="Icons_upgrades_icon_upgrade_aef_m2_flamethrower" />
+		<template_reference name="server_item" value="server_item">
+			<uniqueid name="server_id" value="450562" />
+			<list name="search_tags">
+			</list>
+			<enum name="rarity" value="other" />
+			<list name="races">
+			</list>
+			<bool name="is_in_default_bundle" value="False" />
+			<list name="default_metadata">
+			</list>
+			<instance_reference name="inventory_item_category" value="" />
+		</template_reference>
+		<instance_reference name="upgrade" value="upgrade\british\commander\passive\flamethrowers" />
+		<instance_reference name="ability" value="abilities\british\modal_ability\commander_ability\passive_ability\sapper_flamethrowers" />
+	</group>
+	<uniqueid name="pbgid" value="100732" />
+</instance>

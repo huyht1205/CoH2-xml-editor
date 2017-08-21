@@ -1,0 +1,22 @@
+<instance description="" template="commander_ability">
+	<group name="commander_ability_bag">
+		<locstring name="name" value="11106608" />
+		<locstring name="description" value="11106609" />
+		<icon name="icon" value="Icons_commander_cmdr_british_advanced_cover_combat" />
+		<template_reference name="server_item" value="server_item">
+			<uniqueid name="server_id" value="450564" />
+			<list name="search_tags">
+			</list>
+			<enum name="rarity" value="other" />
+			<list name="races">
+			</list>
+			<bool name="is_in_default_bundle" value="False" />
+			<list name="default_metadata">
+			</list>
+			<instance_reference name="inventory_item_category" value="" />
+		</template_reference>
+		<instance_reference name="upgrade" value="upgrade\british\commander\passive\advanced_cover" />
+		<instance_reference name="ability" value="abilities\british\timed_ability\commander_ability\advanced_cover_combat" />
+	</group>
+	<uniqueid name="pbgid" value="100734" />
+</instance>

@@ -1,0 +1,23 @@
+<instance description="This decal is a reward for War Paint Contributors as part of the War Paint Championships promotion." template="vehicle_decal">
+	<uniqueid name="pbgid" value="109342" />
+	<group name="vehicle_decal_bag">
+		<icon name="icon" value="Icons_decals_war_paint_platinum_decal" />
+		<template_reference name="server_item" value="server_item">
+			<uniqueid name="server_id" value="451182" />
+			<list name="search_tags">
+			</list>
+			<enum name="rarity" value="reward" />
+			<list name="races">
+				<instance_reference name="race" value="racebps\british" />
+			</list>
+			<bool name="is_in_default_bundle" value="False" />
+			<list name="default_metadata">
+			</list>
+			<instance_reference name="inventory_item_category" value="" />
+		</template_reference>
+		<instance_reference name="store_item" value="" />
+		<locstring name="description" value="11120342" />
+		<locstring name="name" value="11120343" />
+		<string name="decal_name" value="DATA:\art\armies\common\badges\war_paint_platinum_ukf_dif" />
+	</group>
+</instance>

@@ -1,0 +1,35 @@
+<instance description="Ardennes Improved Ambush" template="skin_pack">
+	<group name="skin_pack_bag">
+		<string name="skin_name" value="okw_0005_summer" />
+		<icon name="icon" value="Icons_swatches_swatch_west_german_0005_summer_medium" />
+		<icon name="icon_secondary" value="Icons_swatches_preview_preview_west_german_0005_summer_medium" />
+		<locstring name="name" value="11113078" />
+		<locstring name="description" value="11113085" />
+		<enum name="kill_type" value="medium_armour" />
+		<enum name="season" value="summer" />
+		<locstring name="description_short" value="11113089" />
+		<instance_reference name="store_item" value="thq_store\skins\warpaint\warpaint_historical_bundle" />
+		<template_reference name="server_item" value="server_item">
+			<uniqueid name="server_id" value="450745" />
+			<list name="search_tags">
+				<locstring name="tag" value="11074008" />
+				<locstring name="tag" value="11074085" />
+			</list>
+			<enum name="rarity" value="common" />
+			<list name="races">
+				<instance_reference name="race" value="racebps\west_german" />
+			</list>
+			<bool name="is_in_default_bundle" value="False" />
+			<list name="default_metadata">
+				<template_reference name="metadata" value="item_metadata\content_url_metadata">
+					<string name="content_url" value="http://promotion-assets.relic.com/polycountskins/renders/steam_render_okw_0005_ardennes_improved_ambush_pattern_medium.jpg" />
+					<enum name="content_type" value="image" />
+					<string name="content_small_url" value="http://promotion-assets.relic.com/polycountskins/renders/steam_render_okw_0005_ardennes_improved_ambush_pattern_medium.jpg" />
+				</template_reference>
+			</list>
+			<instance_reference name="inventory_item_category" value="inventory_item_category\skin_pack\summer_medium" />
+		</template_reference>
+		<bool name="is_historical_skin" value="True" />
+	</group>
+	<uniqueid name="pbgid" value="101980" />
+</instance>

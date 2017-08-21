@@ -1,0 +1,33 @@
+<instance description="" template="commander">
+	<group name="commander_bag">
+		<locstring name="name" value="11090938" />
+		<instance_reference name="archetype_upgrade" value="upgrade\aef\commander\archetype\tech_tree_v1" />
+		<locstring name="description" value="11095379" />
+		<icon name="icon" value="Icons_commander_portrait_british_commander_02" />
+		<icon name="icon_secondary" value="Icons_commander_portrait_british_commander_02_large" />
+		<int name="ui_position" value="0" />
+		<locstring name="description_short" value="0" />
+		<instance_reference name="store_item" value="thq_store\commanders\british\british_support_company" />
+		<template_reference name="server_item" value="server_item">
+			<uniqueid name="server_id" value="450268" />
+			<list name="search_tags">
+			</list>
+			<enum name="rarity" value="rare" />
+			<list name="races">
+				<instance_reference name="race" value="racebps\british" />
+			</list>
+			<bool name="is_in_default_bundle" value="False" />
+			<list name="default_metadata">
+			</list>
+			<instance_reference name="inventory_item_category" value="" />
+		</template_reference>
+		<list name="commander_abilities">
+			<instance_reference name="commander_ability" value="commander_ability\british\commander\ability\field_recovery" />
+			<instance_reference name="commander_ability" value="commander_ability\british\commander\passive\command_vehicle" />
+			<instance_reference name="commander_ability" value="commander_ability\british\commander\ability\artillery_cover" />
+			<instance_reference name="commander_ability" value="commander_ability\british\commander\ability\reinforce_the_front" />
+			<instance_reference name="commander_ability" value="commander_ability\british\commander\ability\command_hq" />
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="93434" />
+</instance>

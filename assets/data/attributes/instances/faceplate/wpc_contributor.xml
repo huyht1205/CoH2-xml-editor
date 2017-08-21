@@ -1,0 +1,22 @@
+<instance description="This is the special WPC Contributor faceplate as part of the WPC promotions" template="faceplate">
+	<group name="faceplate_bag">
+		<locstring name="name" value="11127833" />
+		<icon name="icon" value="Icons_faceplate_frames_faceplate_frame_wpc_contributor_icon" />
+		<instance_reference name="store_item" value="" />
+		<template_reference name="server_item" value="server_item">
+			<uniqueid name="server_id" value="450999" />
+			<list name="search_tags">
+			</list>
+			<enum name="rarity" value="reward" />
+			<list name="races">
+			</list>
+			<bool name="is_in_default_bundle" value="False" />
+			<list name="default_metadata">
+			</list>
+			<instance_reference name="inventory_item_category" value="" />
+		</template_reference>
+		<icon name="icon_secondary" value="Icons_faceplate_frames_faceplate_frame_wpc_contributor" />
+		<string name="frame_selector" value="" />
+	</group>
+	<uniqueid name="pbgid" value="108796" />
+</instance>

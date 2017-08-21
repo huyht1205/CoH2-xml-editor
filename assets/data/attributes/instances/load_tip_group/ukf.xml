@@ -1,0 +1,19 @@
+<instance description="" template="load_tip_group">
+	<group name="load_tip_group_bag">
+		<locstring name="name" value="11095970" />
+		<list name="tips">
+			<instance_reference name="tip" value="load_tips\ukf_load_tips\ukf_load_tip_01" />
+			<instance_reference name="tip" value="load_tips\ukf_load_tips\ukf_load_tip_02" />
+			<instance_reference name="tip" value="load_tips\ukf_load_tips\ukf_load_tip_03" />
+			<instance_reference name="tip" value="load_tips\ukf_load_tips\ukf_load_tip_04" />
+			<instance_reference name="tip" value="load_tips\ukf_load_tips\ukf_load_tip_05" />
+			<instance_reference name="tip" value="load_tips\ukf_load_tips\ukf_load_tip_07" />
+			<instance_reference name="tip" value="load_tips\ukf_load_tips\ukf_load_tip_08" />
+			<instance_reference name="tip" value="load_tips\ukf_load_tips\ukf_load_tip_09" />
+			<instance_reference name="tip" value="load_tips\ukf_load_tips\ukf_load_tip_10" />
+			<instance_reference name="tip" value="load_tips\ukf_load_tips\ukf_load_tip_11" />
+			<instance_reference name="tip" value="load_tips\ukf_load_tips\ukf_load_tip_12" />
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="95292" />
+</instance>

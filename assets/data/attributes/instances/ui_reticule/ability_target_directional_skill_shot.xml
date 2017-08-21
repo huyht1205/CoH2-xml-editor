@@ -1,0 +1,35 @@
+<instance description="" template="ui_reticule">
+	<group name="ui_reticule_bag">
+		<template_reference name="data" value="tables\ui_reticule_direction_data">
+			<file name="arrow_texture" value="targeting\directional_arrow_02_red" />
+			<float name="arrow_width" value="1" />
+			<float name="arrow_height" value="1.5" />
+			<file name="line_texture" value="targeting\directional_arrow_03_red" />
+			<float name="line_width" value="1" />
+			<float name="line_uvscale" value="0.5" />
+		</template_reference>
+		<group name="map">
+			<int name="colour_a" value="100" />
+			<int name="colour_b" value="0" />
+			<int name="colour_g" value="65" />
+			<int name="colour_r" value="255" />
+		</group>
+		<group name="retention">
+			<int name="strobe_count" value="1" />
+			<float name="strobe_seconds_on" value="0" />
+			<float name="strobe_seconds_off" value="0.25" />
+			<float name="strobe_alpha_on" value="1" />
+			<float name="strobe_alpha_off" value="0" />
+		</group>
+		<group name="easing">
+			<float name="speed" value="25" />
+			<float name="factor" value="5" />
+		</group>
+		<group name="pulsing">
+			<float name="pulse_alpha_off" value="0" />
+			<float name="pulse_alpha_on" value="1" />
+			<float name="pulse_seconds" value="0" />
+		</group>
+	</group>
+	<uniqueid name="pbgid" value="96762" />
+</instance>

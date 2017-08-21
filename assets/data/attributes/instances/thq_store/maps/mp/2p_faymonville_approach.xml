@@ -1,0 +1,19 @@
+<instance description="" template="thq_store">
+	<group name="unlock_item">
+		<enum name="item_category" value="maps" />
+		<instance_reference name="unlock_upgrade" value="" />
+		<bool name="community" value="False" />
+		<bool name="purchaseable" value="True" />
+		<list name="dlc_tokens">
+			<string name="dlc_token" value="260309" comment="AppID - 287370 = The Western Front Armies (US Forces Faction and Oberkommando West Faction)" />
+			<string name="dlc_token" value="287370" comment="AppID - 287370 = The Western Front Armies (US Forces Faction)" />
+			<string name="dlc_token" value="287371" comment="AppID - 287370 = The Western Front Armies (Oberkommando West Faction)" />
+			<string name="dlc_token" value="231571" comment="AppID - 231571 = Private Alpha Test Group" />
+			<string name="dlc_token" value="366110" comment="AppID - 366110 = UKF Closed Alpha Test Group" />
+			<string name="dlc_token" value="322820" comment="AppID - 322820 = Standard Game Open Beta Test Group" />
+			<string name="dlc_token" value="322830" comment="AppID - 322830 = Oberkommando West Open Beta Test Group" />
+			<string name="dlc_token" value="322840" comment="AppID - 322840 = US Forces Open Beta Test Group" />
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="16476" />
+</instance>

@@ -1,0 +1,54 @@
+<instance description="" template="intel_bulletin">
+	<group name="intel_bag">
+		<instance_reference name="reward_upgrade" value="" />
+		<locstring name="name" value="11077375" />
+		<locstring name="description" value="11077373" />
+		<icon name="icon" value="Icons_intel_bulletins_mediumtank_aef_tank02" />
+		<locstring name="description_short" value="11077374" />
+		<template_reference name="server_item" value="server_item">
+			<uniqueid name="server_id" value="390451" />
+			<list name="search_tags">
+				<locstring name="tag" value="11077376" />
+			</list>
+			<enum name="rarity" value="common" />
+			<list name="races">
+				<instance_reference name="race" value="racebps\aef" />
+			</list>
+			<bool name="is_in_default_bundle" value="False" />
+			<list name="default_metadata">
+			</list>
+			<instance_reference name="inventory_item_category" value="inventory_item_category\intel_bulletin\medium_tanks" />
+		</template_reference>
+		<template_reference name="server_buff" value="server_ib">
+			<template_reference name="modifier" value="">
+			</template_reference>
+			<list name="target_requirements">
+				<template_reference name="required" value="requirements\required_unit_type">
+					<enum name="reason" value="usage" />
+					<locstring name="ui_name" value="0" />
+					<enum name="unit_type" value="medium_tank" />
+					<template_reference name="qualify_option" value="options\none">
+					</template_reference>
+					<bool name="search_load_out" value="False" />
+					<bool name="owned_by_player_only" value="True" />
+				</template_reference>
+			</list>
+			<float name="default" value="0.3" />
+			<float name="max" value="0.3" />
+			<float name="min" value="0.1" />
+			<list name="rarities">
+				<group name="rarity">
+					<float name="minPct" value="0.7" />
+					<float name="maxPct" value="1" />
+					<enum name="loot_item_rarity" value="common" />
+				</group>
+				<group name="rarity">
+					<float name="minPct" value="0" />
+					<float name="maxPct" value="0.3" />
+					<enum name="loot_item_rarity" value="uncommon" />
+				</group>
+			</list>
+		</template_reference>
+	</group>
+	<uniqueid name="pbgid" value="18725" />
+</instance>

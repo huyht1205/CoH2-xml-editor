@@ -1,0 +1,25 @@
+<instance description="" template="commander_ability">
+	<group name="commander_ability_bag">
+		<locstring name="name" value="11090933" />
+		<locstring name="description" value="11090934" />
+		<icon name="icon" value="Icons_commander_cmdr_british_forward_observation_post" />
+		<template_reference name="server_item" value="server_item">
+			<list name="search_tags">
+				<locstring name="tag" value="0" />
+				<locstring name="tag" value="0" />
+			</list>
+			<enum name="rarity" value="rare" />
+			<list name="races">
+				<instance_reference name="race" value="racebps\british" />
+			</list>
+			<bool name="is_in_default_bundle" value="False" />
+			<list name="default_metadata">
+			</list>
+			<uniqueid name="server_id" value="450281" />
+			<instance_reference name="inventory_item_category" value="" />
+		</template_reference>
+		<instance_reference name="upgrade" value="" />
+		<instance_reference name="ability" value="abilities\british\modal_ability\commander_ability\command_hq" />
+	</group>
+	<uniqueid name="pbgid" value="93494" />
+</instance>

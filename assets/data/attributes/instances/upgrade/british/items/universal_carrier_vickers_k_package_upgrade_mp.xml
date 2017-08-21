@@ -1,0 +1,142 @@
+<instance description="Vickers Machine Gun Upgrade" template="upgrade">
+	<group name="upgrade_bag">
+		<bool name="enable_in_hold" value="True" />
+		<float name="global_max_limit" value="0" />
+		<bool name="has_speech_code" value="True" />
+		<float name="local_max_limit" value="1" />
+		<enum name="owner_type" value="self" />
+		<group name="speech_code_2">
+			<string name="code_1" value="" />
+			<string name="code_2" value="" />
+			<string name="code_3" value="" />
+		</group>
+		<group name="speech_code_3">
+			<string name="code_1" value="lvv" />
+			<string name="code_2" value="" />
+			<string name="code_3" value="" />
+		</group>
+		<group name="time_cost">
+			<group name="cost">
+				<float name="action" value="0" />
+				<float name="command" value="0" />
+				<float name="fuel" value="0" />
+				<float name="manpower" value="0" />
+				<float name="munition" value="60" />
+				<float name="popcap" value="0" />
+			</group>
+			<float name="time_seconds" value="20" />
+		</group>
+		<bool name="ui_event_cue" value="True" />
+		<enum name="ui_group" value="unit_upgrade_panel" />
+		<int name="ui_position" value="1" />
+		<group name="ui_info">
+			<locstring name="extra_text" value="11084760" />
+			<locstring name="help_text" value="11083641" />
+			<string name="hotkey_name" value="C" />
+			<icon name="icon_name" value="Icons_upgrades_icon_upgrade_british_vickers" />
+			<bool name="reveal_for_decryption" value="False" />
+			<locstring name="screen_name" value="11083640" />
+			<locstring name="brief_text" value="0" />
+			<locstring name="screen_name_short" value="0" />
+			<enum name="ui_style" value="default" />
+		</group>
+		<bool name="validate_actions" value="True" />
+		<list name="actions">
+			<template_reference name="action" value="action\enable_hold_action">
+				<bool name="switch_on" value="False" />
+				<uniqueid name="id" value="412816" />
+			</template_reference>
+			<template_reference name="action" value="action\add_weapon">
+				<float name="hardpoint" value="2" />
+				<group name="weapon">
+					<group name="heading">
+						<float name="x" value="0" />
+						<float name="y" value="0" />
+						<float name="z" value="1" />
+					</group>
+					<float name="length" value="0" />
+					<group name="origin">
+						<float name="x" value="0.5" />
+						<float name="y" value="2" />
+						<float name="z" value="0.6" />
+					</group>
+					<enum name="type" value="default" />
+					<instance_reference name="weapon" value="weapon\british\small_arms\machine_gun\light_machine_gun\vickers_k_universal_carrier" />
+				</group>
+				<uniqueid name="id" value="436090" />
+			</template_reference>
+			<template_reference name="action" value="action\change_weapon">
+				<float name="hardpoint" value="2" />
+				<instance_reference name="weapon" value="weapon\british\small_arms\machine_gun\light_machine_gun\vickers_k_universal_carrier" />
+				<uniqueid name="id" value="436091" />
+			</template_reference>
+			<template_reference name="action" value="action\add_crew_action">
+				<string name="crew_name" value="Gunner" />
+				<uniqueid name="id" value="445432" />
+			</template_reference>
+			<template_reference name="action" value="action\apply_crew_action">
+				<bool name="apply_removal" value="False" />
+				<string name="crew_name" value="Gunner" />
+				<bool name="kill" value="False" />
+				<uniqueid name="id" value="444222" />
+			</template_reference>
+			<template_reference name="action" value="action\apply_modifiers_action">
+				<float name="duration" value="0" />
+				<bool name="permanent" value="False" />
+				<list name="modifiers">
+					<template_reference name="modifier" value="modifiers\health_maximum_modifier">
+						<enum name="application_type" value="apply_to_entity" />
+						<bool name="exclusive" value="False" />
+						<string name="modifier_id" value="" />
+						<string name="target_type_name" value="" />
+						<enum name="usage_type" value="addition" />
+						<float name="value" value="40" />
+						<instance_reference name="tooltip" value="modifier_tooltip\health_maximum_modifier" />
+					</template_reference>
+				</list>
+				<uniqueid name="id" value="516594" />
+			</template_reference>
+		</list>
+		<list name="requirements">
+			<template_reference name="required" value="requirements\required_in_territory">
+				<enum name="reason" value="usage" />
+				<locstring name="ui_name" value="0" />
+				<bool name="in_supply" value="True" />
+				<bool name="is_secured" value="False" />
+				<bool name="is_secured_by_checkpoint" value="False" />
+				<bool name="not_in_transition" value="False" />
+			</template_reference>
+			<template_reference name="required" value="requirements\required_not">
+				<enum name="reason" value="usage_and_display" />
+				<locstring name="ui_name" value="11083639" />
+				<list name="requirement_table">
+					<template_reference name="required" value="requirements\required_entity_upgrade">
+						<enum name="reason" value="usage" />
+						<locstring name="ui_name" value="0" />
+						<bool name="is_present" value="True" />
+						<instance_reference name="upgrade_name" value="upgrade\british\items\universal_carrier_wasp_package_upgrade_mp" />
+						<bool name="include_queued" value="False" />
+					</template_reference>
+				</list>
+			</template_reference>
+			<template_reference name="required" value="requirements\required_entity_upgrade">
+				<enum name="reason" value="usage" />
+				<locstring name="ui_name" value="11091080" />
+				<bool name="is_present" value="False" />
+				<instance_reference name="upgrade_name" value="upgrade\british\items\universal_carrier_wasp_package_upgrade_mp" />
+				<bool name="include_queued" value="True" />
+			</template_reference>
+		</list>
+		<icon name="ui_kicker_icon_name" value="Icons_weapons_weapon_vickers_lmg" />
+		<locstring name="ui_squad_name_override" value="0" />
+		<locstring name="ui_squad_help_text_override" value="0" />
+		<locstring name="ui_squad_extra_text_override" value="0" />
+		<list name="ui_preview">
+		</list>
+		<list name="on_cancel_actions">
+		</list>
+		<list name="on_begin_actions">
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="89097" />
+</instance>

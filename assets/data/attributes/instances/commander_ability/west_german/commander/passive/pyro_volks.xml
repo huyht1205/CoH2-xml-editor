@@ -1,0 +1,26 @@
+<instance description="" template="commander_ability">
+	<group name="commander_ability_bag">
+		<locstring name="name" value="11097776" />
+		<locstring name="description" value="11097777" />
+		<icon name="icon" value="Icons_upgrades_icon_upgrade_german_flamethrower" />
+		<template_reference name="server_item" value="server_item">
+			<list name="search_tags">
+				<locstring name="tag" value="0" />
+				<locstring name="tag" value="0" />
+				<locstring name="tag" value="0" />
+			</list>
+			<enum name="rarity" value="uncommon" />
+			<list name="races">
+				<instance_reference name="race" value="racebps\west_german" />
+			</list>
+			<bool name="is_in_default_bundle" value="False" />
+			<list name="default_metadata">
+			</list>
+			<uniqueid name="server_id" value="450505" />
+			<instance_reference name="inventory_item_category" value="inventory_item_category\commander_ability\other" />
+		</template_reference>
+		<instance_reference name="upgrade" value="upgrade\west_german\commander\passive\pyro_volks" />
+		<instance_reference name="ability" value="abilities\west_german\modal_ability\commander_ability\passive_ability\pyro_volks" />
+	</group>
+	<uniqueid name="pbgid" value="97027" />
+</instance>

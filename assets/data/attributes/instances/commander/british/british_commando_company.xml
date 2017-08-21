@@ -1,0 +1,33 @@
+<instance description="" template="commander">
+	<group name="commander_bag">
+		<locstring name="name" value="11085017" />
+		<instance_reference name="archetype_upgrade" value="upgrade\aef\commander\archetype\tech_tree_v1" />
+		<locstring name="description" value="11089956" />
+		<icon name="icon" value="Icons_commander_portrait_british_commander_01" />
+		<icon name="icon_secondary" value="Icons_commander_portrait_british_commander_01_large" />
+		<int name="ui_position" value="0" />
+		<locstring name="description_short" value="0" />
+		<instance_reference name="store_item" value="thq_store\commanders\british\british_commando_company" />
+		<template_reference name="server_item" value="server_item">
+			<uniqueid name="server_id" value="450073" />
+			<list name="search_tags">
+			</list>
+			<enum name="rarity" value="common" />
+			<list name="races">
+				<instance_reference name="race" value="racebps\british" />
+			</list>
+			<bool name="is_in_default_bundle" value="True" />
+			<list name="default_metadata">
+			</list>
+			<instance_reference name="inventory_item_category" value="" />
+		</template_reference>
+		<list name="commander_abilities">
+			<instance_reference name="commander_ability" value="commander_ability\british\commander\ability\mortar_artillery" />
+			<instance_reference name="commander_ability" value="commander_ability\british\commander\ability\glider_commandos_only" />
+			<instance_reference name="commander_ability" value="commander_ability\british\commander\ability\smoke_assault" />
+			<instance_reference name="commander_ability" value="commander_ability\british\commander\ability\assault" />
+			<instance_reference name="commander_ability" value="commander_ability\british\commander\ability\allied_strategic_bombing" />
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="91185" />
+</instance>

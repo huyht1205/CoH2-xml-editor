@@ -1,0 +1,23 @@
+<instance description="" template="fatality">
+	<uniqueid name="pbgid" value="94268" />
+	<group name="fatality_bag">
+		<locstring name="name" value="11095346" />
+		<template_reference name="server_item" value="server_item">
+			<uniqueid name="server_id" value="450322" />
+			<list name="search_tags">
+			</list>
+			<enum name="rarity" value="uncommon" />
+			<list name="races">
+				<instance_reference name="race" value="racebps\british" />
+			</list>
+			<bool name="is_in_default_bundle" value="False" />
+			<list name="default_metadata">
+			</list>
+			<instance_reference name="inventory_item_category" value="" />
+		</template_reference>
+		<icon name="icon" value="Icons_fatalities_burn_them_out" />
+		<locstring name="description" value="11095345" />
+		<instance_reference name="store_item" value="" />
+		<instance_reference name="ability" value="abilities\british\fatality\fatality_burn_them_out" />
+	</group>
+</instance>

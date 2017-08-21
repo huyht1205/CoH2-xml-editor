@@ -1,0 +1,59 @@
+<instance description="" template="critical">
+	<group name="critical_bag">
+		<group name="critical_indicators">
+			<enum name="indicator_01" value="" />
+			<enum name="indicator_02" value="" />
+			<enum name="indicator_03" value="" />
+		</group>
+		<string name="description" value="Destroyed" />
+		<bool name="is_unique" value="True" />
+		<group name="kicker_message">
+			<locstring name="message" value="0" />
+			<float name="message_colour_a" value="255" />
+			<float name="message_colour_b" value="0" />
+			<float name="message_colour_g" value="0" />
+			<float name="message_colour_r" value="255" />
+			<float name="message_seconds" value="5" />
+			<float name="offset_x" value="0" />
+			<float name="offset_y" value="0" />
+		</group>
+		<enum name="target" value="tp_entity" />
+		<list name="actions">
+			<template_reference name="action" value="action\timed_action">
+				<float name="duration" value="12" />
+				<bool name="fire_and_forget" value="False" />
+				<list name="subactions">
+					<template_reference name="action" value="action\interval_action">
+						<float name="interval_second" value="0.125" />
+						<uniqueid name="id" value="427901" />
+						<list name="interval_subactions">
+							<group name="interval_subaction_group">
+								<float name="trigger_time_second" value="0.125" />
+								<list name="actions">
+									<template_reference name="action" value="action\reveal_area">
+										<bool name="all_player" value="True" />
+										<float name="duration" value="1" />
+										<bool name="fire_and_forget" value="True" />
+										<float name="radius" value="2" />
+										<uniqueid name="id" value="427902" />
+									</template_reference>
+								</list>
+							</group>
+						</list>
+					</template_reference>
+				</list>
+				<uniqueid name="id" value="427890" />
+			</template_reference>
+		</list>
+		<list name="requirements">
+		</list>
+		<template_reference name="ui_info" value="tables\ui_info">
+			<locstring name="screen_name" value="0" />
+			<locstring name="help_text" value="0" />
+			<icon name="icon_name" value="" />
+			<string name="hotkey_name" value="" />
+		</template_reference>
+		<bool name="repairable" value="True" />
+	</group>
+	<uniqueid name="pbgid" value="92645" />
+</instance>

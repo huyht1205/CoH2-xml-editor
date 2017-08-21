@@ -1,0 +1,22 @@
+<instance description="supply item that can be dropped as warspoil" template="supply_currency">
+	<group name="supply_currency_bag">
+		<locstring name="name" value="11084619" />
+		<locstring name="description" value="11084912" />
+		<locstring name="description_short" value="0" />
+		<icon name="icon" value="Icons_item_packs_supply_awarded" />
+		<icon name="icon_secondary" value="Icons_commander2_icon_supply_48x48" />
+		<template_reference name="server_item" value="server_item">
+			<uniqueid name="server_id" value="1000" />
+			<list name="search_tags">
+			</list>
+			<enum name="rarity" value="reward" />
+			<list name="races">
+			</list>
+			<bool name="is_in_default_bundle" value="False" />
+			<list name="default_metadata">
+			</list>
+			<instance_reference name="inventory_item_category" value="" />
+		</template_reference>
+	</group>
+	<uniqueid name="pbgid" value="102465" />
+</instance>

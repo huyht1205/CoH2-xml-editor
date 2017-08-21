@@ -1,0 +1,14 @@
+<instance description="" template="load_tips">
+	<group name="tip">
+		<locstring name="loadtip" value="11095906" />
+		<icon name="icon" value="Icons_upgrades_icon_upgrade_british_hq_spec_a" />
+		<enum name="tip_type" value="generic" />
+		<enum name="tip_season_type" value="any" />
+		<list name="scenario_names">
+		</list>
+		<list name="required_races">
+			<instance_reference name="required_race" value="racebps\british" />
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="95300" />
+</instance>

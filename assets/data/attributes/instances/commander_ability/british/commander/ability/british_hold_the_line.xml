@@ -1,0 +1,25 @@
+<instance description="" template="commander_ability">
+	<group name="commander_ability_bag">
+		<locstring name="name" value="11091060" />
+		<locstring name="description" value="11091065" />
+		<icon name="icon" value="Icons_commander_cmdr_british_hold_the_line" />
+		<template_reference name="server_item" value="server_item">
+			<list name="search_tags">
+				<locstring name="tag" value="0" />
+				<locstring name="tag" value="0" />
+			</list>
+			<enum name="rarity" value="epic" />
+			<list name="races">
+				<instance_reference name="race" value="racebps\british" />
+			</list>
+			<bool name="is_in_default_bundle" value="False" />
+			<list name="default_metadata">
+			</list>
+			<uniqueid name="server_id" value="450295" />
+			<instance_reference name="inventory_item_category" value="" />
+		</template_reference>
+		<instance_reference name="upgrade" value="" />
+		<instance_reference name="ability" value="abilities\british\timed_ability\commander_ability\british_hold_the_line" />
+	</group>
+	<uniqueid name="pbgid" value="93731" />
+</instance>

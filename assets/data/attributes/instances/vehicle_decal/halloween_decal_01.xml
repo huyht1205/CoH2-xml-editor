@@ -1,0 +1,35 @@
+<instance description="Halloween themed Decal" template="vehicle_decal">
+	<uniqueid name="pbgid" value="99310" />
+	<group name="vehicle_decal_bag">
+		<icon name="icon" value="Icons_decals_halloween_decal_01" />
+		<template_reference name="server_item" value="server_item">
+			<uniqueid name="server_id" value="450527" />
+			<list name="search_tags">
+			</list>
+			<enum name="rarity" value="event" />
+			<list name="races">
+				<instance_reference name="race" value="racebps\german" />
+				<instance_reference name="race" value="racebps\aef" />
+				<instance_reference name="race" value="racebps\soviet" />
+				<instance_reference name="race" value="racebps\west_german" />
+				<instance_reference name="race" value="racebps\british" />
+			</list>
+			<bool name="is_in_default_bundle" value="False" />
+			<list name="default_metadata">
+				<template_reference name="metadata" value="item_metadata\boost_metadata">
+					<enum name="boost_type" value="drop_point" />
+					<enum name="target_type" value="self" />
+					<enum name="value_type" value="percentage" />
+					<float name="value_maximum" value="100" />
+					<float name="value_minimum" value="100" />
+					<string name="boost_subtype" value="" />
+				</template_reference>
+			</list>
+			<instance_reference name="inventory_item_category" value="" />
+		</template_reference>
+		<instance_reference name="store_item" value="" />
+		<locstring name="description" value="11099017" />
+		<locstring name="name" value="11099016" />
+		<string name="decal_name" value="DATA:\art\armies\common\badges\halloween_decal_01_dif" />
+	</group>
+</instance>

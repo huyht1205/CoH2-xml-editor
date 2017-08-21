@@ -1,0 +1,15 @@
+<instance description="" template="thq_store">
+	<group name="unlock_item">
+		<enum name="item_category" value="race" />
+		<instance_reference name="unlock_upgrade" value="" />
+		<bool name="community" value="False" />
+		<bool name="purchaseable" value="True" />
+		<list name="dlc_tokens">
+			<string name="dlc_token" value="365820" />
+			<string name="dlc_token" value="231571" />
+			<string name="dlc_token" value="237510" />
+			<string name="dlc_token" value="366110" />
+		</list>
+	</group>
+	<uniqueid name="pbgid" value="18549" />
+</instance>
