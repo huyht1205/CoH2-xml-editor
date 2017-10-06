@@ -1,2 +1,1 @@
-# CoH2-xml-editor
-Cheat CoH2
+Mod tool for CoH2
